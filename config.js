@@ -5,7 +5,7 @@ window.APP_CONFIG = {
   likertLabels: ['非常不同意', '不同意', '普通', '同意', '非常同意'],
   backend: {
     // 重要：部署 Google Apps Script 後，把 Web App URL 貼到這裡
-    googleScriptUrl: 'https://script.google.com/macros/s/AKfycbzOFRiQDkubJHf1DCjTvw_26HcLdHe86Jna7nukZtUr98NLmc0crDpiXRjLK6f7B4YYEw/exec',
+    googleScriptUrl: 'https://script.google.com/macros/s/AKfycbyDl6R6zxMkae7MJ42L0FXXX479BNLnty7uzGZQxHM-P0IxUI0c66GBn_psjBT9Ncu2Jg/exec',
     enabled: true
   },
   storagePrefix: 'fourConditionSurvey_v1'
