@@ -1,6 +1,6 @@
 window.APP_CONFIG = {
-  appTitle: '四情境平均分派問卷',
-  surveySubtitle: '一個網站、四個情境、共同題目、平均分派樣本',
+  appTitle: '科技策略構框問卷',
+  surveySubtitle: '我在測試第一頁顯示文字',
   researchNote: '此問卷採匿名方式蒐集，僅供學術研究使用。',
   likertLabels: ['非常不同意', '不同意', '普通', '同意', '非常同意'],
   backend: {
