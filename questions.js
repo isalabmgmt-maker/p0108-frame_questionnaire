@@ -20,10 +20,10 @@ window.SURVEY_PAGES = [
     title: '請回想剛才閱讀的說明。評估在閱讀這些內容後，有多大程度同意以下的敘述。',
     description: '1 非常不同意｜2 不同意｜3 普通｜4 同意｜5 非常同意',
     questions: [
-      { id: 'GCI-1', type: 'likert', text: '我根據這些資訊建立對智慧養豬科技的理解。' },
-      { id: 'GCI-2', type: 'likert', text: '我從這些資訊中得到對智慧養豬科技的新洞察。' },
-      { id: 'GCI-3', type: 'likert', text: '我根據這些資訊理解智慧養豬科技的意義。' },
-      { id: 'GCI-4', type: 'likert', text: '我根據這些資訊對智慧養豬科技的運作方式形成有系統的整體理解。' },
+      { id: 'GCI-1', type: 'likert', text: '這些資訊幫助我建立對智慧養豬科技的基本認識。' },
+      { id: 'GCI-2', type: 'likert', text: '這些資訊讓我對智慧養豬科技有新的認識。' },
+      { id: 'GCI-3', type: 'likert', text: '這些資訊讓我理解智慧養豬科技的用途與意義。' },
+      { id: 'GCI-4', type: 'likert', text: '這些資訊讓我對智慧養豬科技如何運作，有清楚且連貫的理解。' },
       { id: 'GCI-5', type: 'likert', text: '我能根據這些資訊理解智慧養豬科技的不同面向如何相互關聯。' },
       { id: 'GCI-6', type: 'likert', text: '我能以自己可以理解的方式，整理這些智慧養豬科技的相關資訊。' }
     ]
@@ -33,14 +33,14 @@ window.SURVEY_PAGES = [
     title: '請回想剛才閱讀的說明。評估在閱讀這些內容後，有多大程度同意以下的敘述。',
     description: '1 非常不同意｜2 不同意｜3 普通｜4 同意｜5 非常同意',
     questions: [
-      { id: 'RCU-1', type: 'likert', text: '我能根據這些資訊，補足自己對智慧養豬科技理解上的缺口。' },
+      { id: 'RCU-1', type: 'likert', text: '這些資訊幫助我補足原本不清楚的智慧養豬科技相關內容。' },
       { id: 'RCU-2', type: 'likert', text: '這些資訊降低了我對智慧養豬科技的困惑。' },
-      { id: 'RCU-3', type: 'likert', text: '這些資訊降低了我對智慧養豬科技內涵的不確定感。' },
-      { id: 'RCU-4', type: 'likert', text: '這些資訊降低了我對智慧養豬科技的模糊感。' },
-      { id: 'UNC-1', type: 'likert', text: '我能將這些資訊與自己原先對智慧養豬科技的認識建立連結。' },
-      { id: 'UNC-2', type: 'likert', text: '我將這些資訊與自己原先對養豬的認識建立連結。' },
-      { id: 'UNC-3', type: 'likert', text: '我從這些資訊中理解智慧養豬科技與不同利害關係人（如養豬業者、消費者及企業）之間的關聯。' },
-      { id: 'UNC-4', type: 'likert', text: '我能根據所提供的資訊，建立智慧養豬科技與食品供應鏈不同環節之間的關聯。' }
+      { id: 'RCU-3', type: 'likert', text: '這些資訊減少了我對智慧養豬科技的不確定感。' },
+      { id: 'RCU-4', type: 'likert', text: '這些資訊讓我更清楚該如何解讀與理解智慧養豬科技。' },
+      { id: 'UNC-1', type: 'likert', text: '這些資訊讓我聯想到自己過去對智慧養豬科技的認識。' },
+      { id: 'UNC-2', type: 'likert', text: '我能把這些資訊和自己原本對養豬的認識連結起來。' },
+      { id: 'UNC-3', type: 'likert', text: '這些資訊讓我了解智慧養豬科技與養豬業者、消費者及相關企業之間的關係。' },
+      { id: 'UNC-4', type: 'likert', text: '這些資訊讓我了解智慧養豬科技與養豬場實際運作之間的關聯。' }
     ]
   },
   {
@@ -48,10 +48,10 @@ window.SURVEY_PAGES = [
    title: '請回想剛才閱讀的說明，評估您有多大程度同意以下對於說明內容的敘述。',
    description: '1 非常不同意｜2 不同意｜3 普通｜4 同意｜5 非常同意',
    questions: [
-     { id: 'AQ-1', type: 'likert', text: '所提供的智慧養豬科技資訊具有充實的內容。' },
-     { id: 'AQ-2', type: 'likert', text: '所提供的智慧養豬科技資訊對我有所幫助。' },
-     { id: 'AQ-3', type: 'likert', text: '所提供的智慧養豬科技資訊對我具有價值。' },
-     { id: 'AQ-4', type: 'likert', text: '所提供的智慧養豬科技資訊具有說服力。' }
+     { id: 'AQ-1', type: 'likert', text: '我覺得這些智慧養豬科技資訊內容充實。' },
+     { id: 'AQ-2', type: 'likert', text: '我覺得這些智慧養豬科技資訊對我有幫助。' },
+     { id: 'AQ-3', type: 'likert', text: '我覺得這些智慧養豬科技資訊很有價值。' },
+     { id: 'AQ-4', type: 'likert', text: '我覺得這些智慧養豬科技資訊具有說服力。' }
    ]
   },
   {
@@ -59,11 +59,11 @@ window.SURVEY_PAGES = [
    title: '請回想剛才閱讀的說明，評估有多大程度同意以下對於您個人態度的敘述。',
    description: '1 非常不同意｜2 不同意｜3 普通｜4 同意｜5 非常同意',
    questions: [
-     { id: 'SP-1', type: 'likert', text: '如果認識的人推薦一項新科技，我通常會將他們的推薦納入考量。' },
-     { id: 'SP-2', type: 'likert', text: '當我接觸不熟悉的科技時，我會參考其他人的看法來判斷如何評價它。' },
-     { id: 'SP-3', type: 'likert', text: '知道其他人支持一項新科技，會影響我對它的判斷。' },
-     { id: 'SP-4', type: 'likert', text: '在評價不熟悉的科技時，我經常依賴其他人的意見。' },
-     { id: 'SP-5', type: 'likert', text: '對我而言，自己對新科技的看法與其他人一致是重要的。' }
+     { id: 'SP-1', type: 'likert', text: '如果認識的人向我推薦一項新科技，我通常會考慮他們的建議。' },
+     { id: 'SP-2', type: 'likert', text: '當我接觸不熟悉的科技時，我會參考其他人對它的看法。' },
+     { id: 'SP-3', type: 'likert', text: '如果知道其他人支持一項新科技，我對這項科技的看法也會受到影響。' },
+     { id: 'SP-4', type: 'likert', text: '在評價不熟悉的科技時，我經常依靠其他人的意見來做判斷。' },
+     { id: 'SP-5', type: 'likert', text: '我很在意自己對新科技的看法是否與其他人一致。' }
    ]
   },
   {
@@ -71,11 +71,11 @@ window.SURVEY_PAGES = [
    title: '請回想剛才閱讀的說明，並評估您有多大程度同意以下對於該科技的敘述。',
    description: '1 非常不同意｜2 不同意｜3 普通｜4 同意｜5 非常同意',
    questions: [
-     { id: 'IE-1', type: 'likert', text: '整體而言，我對智慧養豬科技抱持正面的評價。' },
+     { id: 'IE-1', type: 'likert', text: '整體而言，我對智慧養豬科技的評價是正面的。' },
      { id: 'IE-2', type: 'likert', text: '整體而言，我認為智慧養豬科技是好的。' },
      { id: 'IE-3', type: 'likert', text: '整體而言，我喜歡智慧養豬科技。' },
-     { id: 'IE-4', type: 'likert', text: '我喜歡智慧養豬科技這個創新構想。' },
-     { id: 'IE-5', type: 'likert', text: '我認為智慧養豬科技是值得肯定的。' }
+     { id: 'IE-4', type: 'likert', text: '我喜歡智慧養豬科技這個想法。' },
+     { id: 'IE-5', type: 'likert', text: '我認為智慧養豬科技是值得期待的。' }
    ]
  },
   {
